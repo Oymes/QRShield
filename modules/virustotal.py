@@ -2,12 +2,12 @@ import requests
 import time
 from colorama import Fore
 
-def virustotal_api_request(decoded_url):
+def virustotal_api_request(decoded_url, VTKey):
     if decoded_url:
         try:
             url = "https://www.virustotal.com/api/v3/urls"
             headers = {
-                "x-apikey": "API_KEY_HERE",
+                "x-apikey": VTKey,
                 "accept": "application/json",
                 "content-type": "application/x-www-form-urlencoded"
             }

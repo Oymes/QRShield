@@ -2,7 +2,7 @@ import requests
 import json
 from colorama import Fore
 
-def get_report():
+def get_report(ABUSEIP_KEY):
     # Defining the api-endpoint
     url = 'https://api.abuseipdb.com/api/v2/check'
     
@@ -13,7 +13,7 @@ def get_report():
     
     headers = {
         'Accept': 'application/json',
-        'Key': 'API-KEY-HERE'
+        'Key': ABUSEIP_KEY
     }
     
     response = requests.request(method='GET', url=url, headers=headers, params=querystring)
@@ -36,4 +36,3 @@ def get_report():
     else:
         print(f'Request failed with status code {response.status_code}')
 
-get_report()
