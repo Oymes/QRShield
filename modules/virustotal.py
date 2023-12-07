@@ -7,7 +7,7 @@ def virustotal_api_request(decoded_url):
         try:
             url = "https://www.virustotal.com/api/v3/urls"
             headers = {
-                "x-apikey": "6c8dbabdbb179f93f46fdeb12408cfe54acd9a5ec798bd1221c5ae3d0305e1d2",
+                "x-apikey": "API_KEY_HERE",
                 "accept": "application/json",
                 "content-type": "application/x-www-form-urlencoded"
             }
