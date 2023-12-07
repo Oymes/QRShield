@@ -13,7 +13,7 @@ def get_report():
     
     headers = {
         'Accept': 'application/json',
-        'Key': '0945fde1c8399f36380bea2a11636653499a040766896fa61cfacc37681fd2aedc11d8153d17f89b'
+        'Key': 'API-KEY-HERE'
     }
     
     response = requests.request(method='GET', url=url, headers=headers, params=querystring)
