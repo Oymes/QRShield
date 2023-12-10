@@ -27,7 +27,7 @@ QRShield is a python script that analyzes QR codes by decoding the URL encoded w
 
    ```bash
    git clone https://github.com/qLJB/QRShield.git
-   ``
+   
    
 2. Add Api keys to config.json
    - [Virus Total](https://www.virustotal.com/gui/join-us): Sign up for virus total api access
