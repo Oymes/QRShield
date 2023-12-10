@@ -14,10 +14,15 @@ This Python script analyzes QR codes by decoding the URL encoded within them and
 - [requests](https://pypi.org/project/requests/): For making HTTP requests.
 - [opencv-python](https://pypi.org/project/opencv-python/): For image processing.
 - [pyzbar](https://pypi.org/project/pyzbar/): For decoding QR codes.
+- [json](https://docs.python.org/3/library/json.html): For JSON handling.
+- [os](https://docs.python.org/3/library/os.html): For interacting with the operating system.
+- [socket](https://docs.python.org/3/library/socket.html): For low-level network programming.
+- [urllib.parse](https://docs.python.org/3/library/urllib.parse.html): For URL parsing.
+
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone github.com/qLJB/QR-Code-Decoder.git
+   git clone https://github.com/qLJB/QR-Code-Decoder.git
