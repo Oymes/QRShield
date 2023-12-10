@@ -7,6 +7,7 @@ This Python script analyzes QR codes by decoding the URL encoded within them and
 - **QR Code Decoding:** Decode QR codes from images to extract URLs.
 - **VirusTotal Integration:** Submit decoded URLs to the VirusTotal API for analysis and retrieve information on malicious detections by various antivirus engines.
 - **AbuseIPDB Integration:** Query the AbuseIPDB API to obtain information about the IP address associated with the decoded URL.
+- **SSL Lookup:** Lookup the SSL records of the extracted domain.
 
 ## Dependencies
 
