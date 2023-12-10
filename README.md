@@ -26,4 +26,5 @@ This Python script analyzes QR codes by decoding the URL encoded within them and
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/qLJB/QR-Code-Decoder.git
+   git clone https://github.com/qLJB/QRShield.git
+
