@@ -33,7 +33,7 @@ if __name__ == "__main__":
             if virustotal_key is None or abuseipdb_key is None:
                 print(f"{Fore.RED}Error: Unable to load API keys. Please check the 'config.json' file.")
             else:
-                print(f"{Fore.CYAN}\nQR Radar\n{Fore.WHITE}{'=' * 9}\n")  # Title with cyan color and white underline
+                print(f"{Fore.CYAN}\nQR Shield\n{Fore.WHITE}{'=' * 9}\n")  # Title with cyan color and white underline
 
                 print(f"{Fore.WHITE}Getting VirusTotal results, this may take some time\n")
                 decoded_url = decode_qr_code(image_path)
