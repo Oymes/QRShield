@@ -1,6 +1,6 @@
 # QRShield
 
-This Python script analyzes QR codes by decoding the URL encoded within them and retrieving information from the VirusTotal and AbuseIPDB APIs. It provides insights into the potential maliciousness of the decoded URL and additional details about the associated IP address. It will also attempt to recieve SSL information on the domain and store it in a file for further analysis.
+QRShield is a python script that analyzes QR codes by decoding the URL encoded within them and retrieving information from the VirusTotal and AbuseIPDB APIs. It provides insights into the potential maliciousness of the decoded URL and additional details about the associated IP address. It will also attempt to recieve SSL information on the domain and store it in a file for further analysis.
 
 ## Features
 
@@ -27,4 +27,8 @@ This Python script analyzes QR codes by decoding the URL encoded within them and
 
    ```bash
    git clone https://github.com/qLJB/QRShield.git
-
+   ``
+   
+2. Add Api keys to config.json
+   - ** [virus total signup](https://www.virustotal.com/gui/join-us): Sign up for virus total api access
+   - ** [abuseipdb]([https://www.virustotal.com/gui/join-us](https://www.abuseipdb.com/register)https://www.abuseipdb.com/register): Sign up for abuseipdb api access
