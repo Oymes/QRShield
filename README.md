@@ -30,5 +30,5 @@ QRShield is a python script that analyzes QR codes by decoding the URL encoded w
    ``
    
 2. Add Api keys to config.json
-   - [virus total signup](https://www.virustotal.com/gui/join-us): Sign up for virus total api access
-   - [abuseipdb]([https://www.virustotal.com/gui/join-us](https://www.abuseipdb.com/register)https://www.abuseipdb.com/register): Sign up for abuseipdb api access
+   - [Virus Total](https://www.virustotal.com/gui/join-us): Sign up for virus total api access
+   - [AbuseIPDB](https://www.virustotal.com/gui/join-us](https://www.abuseipdb.com/register)https://www.abuseipdb.com/register): Sign up for abuseipdb api access
