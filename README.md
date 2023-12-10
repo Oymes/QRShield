@@ -1,6 +1,6 @@
 # QRShield
 
-This Python script analyzes QR codes by decoding the URL encoded within them and retrieving information from the VirusTotal and AbuseIPDB APIs. It provides insights into the potential maliciousness of the decoded URL and additional details about the associated IP address.
+This Python script analyzes QR codes by decoding the URL encoded within them and retrieving information from the VirusTotal and AbuseIPDB APIs. It provides insights into the potential maliciousness of the decoded URL and additional details about the associated IP address. It will also attempt to recieve SSL information on the domain and store it in a file for further analysis.
 
 ## Features
 
